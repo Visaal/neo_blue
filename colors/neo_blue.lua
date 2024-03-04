@@ -1,1 +1,1 @@
-require("neo_blue").colorscheme()
+require("neo_blue").setup()
