@@ -1,7 +1,7 @@
-local M = {}
+local neo_blue = {}
 local theme = require("neo_blue.theme")
 
-M.setup = function()
+neo_blue.setup = function()
 	vim.cmd("hi clear")
 
 	vim.o.background = "dark"
@@ -15,4 +15,4 @@ M.setup = function()
 	theme.set_highlights()
 end
 
-return M
+return neo_blue
